@@ -3,8 +3,8 @@
 int main()
 {
 	int a=5;
-  	/*Αυτό είναι ένα σχόλιο*/
-  	// και αυτό είναι ακόμα ένα σχόλιο
+  	/* This is a basic "Hello World" program in C programming language*/
+  	// while compiling and running you should see my name
 	printf("Giannis Printezis\n");
 	return 0;
 }
