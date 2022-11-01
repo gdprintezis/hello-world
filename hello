@@ -1,1 +1,10 @@
-Consoloe.log.("Hello!");
+#include <stdio.h>
+
+int main()
+{
+	int a=5;
+  /*Αυτό είναι ένα σχόλιο*/
+  // και αυτό είναι ακόμα ένα σχόλιο
+	printf("Giannis Printezis\n");
+	return 0;
+}
