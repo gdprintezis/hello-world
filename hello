@@ -10,6 +10,6 @@ int main ()
    printf("How old are you?\t");
    scanf("%d",&age);
    printf("You are %d years old and your name is %s \n\n\n",age,name);
-   //ystem("pause");
+   printf("Hello %s \n",name);
    return 0;
 }
