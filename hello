@@ -1,10 +1,15 @@
 #include <stdio.h>
 
-int main()
+int main ()
 {
-	int a=5;
-  	/* This is a basic "Hello World" program in C programming language*/
-  	// while compiling and running you should see my name
-	printf("Giannis Printezis\n");
-	return 0;
+   char name[200];
+   int age;
+
+   printf("Whats your name?\t");
+   scanf("%s",name); //i let you read the doc to avoid overflow :)
+   printf("How old are you?\t");
+   scanf("%d",&age);
+   printf("You are %d years old and your name is %s \n\n\n",age,name);
+   //ystem("pause");
+   return 0;
 }
